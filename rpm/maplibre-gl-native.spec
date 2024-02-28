@@ -54,7 +54,7 @@ This package contains the development headers for %{name}.
 %prep
 %setup -q -n %{name}-%{version}/maplibre-native-qt
 %patch1 -p1
-%patch2 -p1
+#patch2 -p1
 
 %build
 %cmake -DMLN_QT_WITH_WIDGETS=OFF -DMLN_QT_WITH_LOCATION=OFF -DCMAKE_INSTALL_PREFIX:PATH=/usr -DMLN_QT_WITH_INTERNAL_ICU=ON .

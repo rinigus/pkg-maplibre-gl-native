@@ -58,6 +58,7 @@ This package contains the development headers for %{name}.
 
 pushd vendor/maplibre-native
 %patch3 -p1
+%patch4 -p1
 popd
 
 %build

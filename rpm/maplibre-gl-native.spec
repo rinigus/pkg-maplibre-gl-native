@@ -10,6 +10,7 @@ Source: %{name}-%{version}.tar.gz
 Patch1: 0001-Use-CURL-for-downloads.patch
 Patch2: 0002-Fixes-for-compilation-on-SFOS.patch
 Patch3: 0003-CURL_POLL_INOUT-action-handle-added-2365.patch
+Patch4: 0004-fix-double-move-callback.patch
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root
 
